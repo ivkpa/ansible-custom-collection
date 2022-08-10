@@ -1,0 +1,6 @@
+---
+# tasks file for file_create_role
+- name: Create file
+  ivkpa.custom.create_file:
+    file_path: "{{ custom_default_file_path }}"
+    file_content: "{{ custom_default_file_content }}"

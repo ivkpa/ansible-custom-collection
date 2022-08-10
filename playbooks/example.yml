@@ -1,0 +1,5 @@
+---
+- name: Custom module create file
+  hosts: localhost
+  roles:
+    - ivkpa.custom.file_create_role

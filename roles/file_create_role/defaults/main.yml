@@ -1,0 +1,4 @@
+---
+# defaults file for file_create_role
+custom_default_file_path: './example.txt'
+custom_default_file_content: 'test'
